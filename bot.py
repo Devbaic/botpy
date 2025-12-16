@@ -20,7 +20,7 @@ import numpy as np
 
 # ==================== CONFIG ====================
 
-BOT_TOKEN = os.getenv("7881043106:AAF_4vEr-x74mGWuYUZtwe0_NO_rRgyMnnM")  # Set in Render Environment Variables
+BOT_TOKEN = os.getenv("BOT_TOKEN")  # Set in Render Environment Variables
 
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN environment variable not set")
