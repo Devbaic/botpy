@@ -1,2 +1,7 @@
 flask
 requests
+python-telegram-bot==20.7
+pillow
+pytesseract
+opencv-python-headless
+numpy
